@@ -44,7 +44,7 @@ void *functionCount2(){
         return(NULL);
     }
 }
-main(){
+int main(){
     pthread_t thread1, thread2;
     pthread_create( &thread1, NULL, &functionCount1, NULL);
     pthread_create( &thread2, NULL, &functionCount2, NULL);
