@@ -10,7 +10,7 @@ void *thread_function(void *dummyPtr) {
     pthread_mutex_unlock( &mutex1 );
 }
 
-main() {
+int main() {
     pthread_t thread_id[100];
     int i, j;
 
